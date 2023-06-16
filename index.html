@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Ai icon logo.png">
+    <title>Image Generator AI Showcase</title>
+</head>
+
+<body>
+    <!--Começo JS do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!--Fim JS do Bootstrap-->
+
+    <!--Começo Barra de navegação-->
+    <nav class="navbar col-12 m-auto navbar-expand-lg navbar-dark bg-dark position-fixed">
+        <img class="midjourney_logo" id="scroll-to-top" src="img/Ai icon logo.png">
+        <a class="navbar-brand" style="color: white;">Image Generator AI Showcase</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <!--Começo Dropdown-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Referências
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.midjourney.com/home/" target="_blank">Midjourney</a>
+                        <a class="dropdown-item" href="https://www.midjourney.com/showcase/recent/" target="_blank">Comunidade do Midjourney</a>
+                        <a class="dropdown-item" href="https://creator.nightcafe.studio/explore" target="_blank">Night Café</a>
+                    </div>
+                </li>
+                <!--Fim Dropdown-->
+            </ul>
+        </div>
+    </nav>
+    <!--Fim Barra de navegação-->
+
+    <!--Começo Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/Carrousel photo 1.webp" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Carrousel photo 2.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Carrousel photo 3.webp" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--Fim Carousel-->
+    <br>
+    <!--Começo Cards-->
+    <div class="card-list">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Hypnos(mdjney).png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Hypnos the God of Sleep (Midjourney)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Old sargent (mdjney).png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Photograph close up portrait 62-year-old tough decorated general, CLEAN SHAVEN,
+                    serious, stoic cinematic 4k... (Midjourney)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Abstract man on clouds.webp" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Avoir la tête dans les nuages (to have the head in the clouds)/ 8k resolution
+                    concept art detailed matte painting dynamic lighting hyperdeta... (Stable Diffusion v2.1)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Psychedelic Gpsyriffin Poster.webp" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Psychedelic concept drawing, line work, Rick Gpsyriffin poster, Le Gun style,
+                    highly detailed, alegria style, flat colour, intricate, ink drawing, extremely detailed, 70s album
+                    art cover, celshading, rich, art nouveau, thick outlines, Roger Dean, Mike Hinge, Mœbius (Stable
+                    Difusion XL BETA)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Mathematical Drawing of an Apple.webp" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Construction drawing of an Apple with detailed labeling, blueprint, exploded
+                    drawing, labeling, Clearly understandable illustration, Rich in detail, monochromatic, pencil
+                    sketch, draft, Numbers (Stable Difusion XL BETA)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Glass Strawberry.webp" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Fibonacci glasslike transparent strawberry flowers Cute Adorable surrounded by
+                    luminous crystal sparkles, hyperdetailed and highly intricate digital illustration by Ismail
+                    Inceoglu, james jean, Anton Fadeev and Yoshitaka Amano, trending on artstation, Vibrant Colours,
+                    volumetric lighting, depth of field, unreal engine 5, backlit, 8k resolution (Stable Difusion XL
+                    BETA)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Afro Model.webp" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Afro Model (Stable Diffusion v2.1)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Retro David Bowie.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Portrait of Retro David Bowie, extreme light leaks, motion blur, Tom Bagshaw ar 5:7
+                    (Midjourney)</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Red Cockatiel.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text">Beautiful red teal cockatiel sitting on a branch (Midjourney)</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--Fim Cards-->
+
+    <!--Começo Scripts-->
+    <script>
+        var scrollToTopButton = document.getElementById("scroll-to-top");
+        scrollToTopButton.addEventListener("click", function () {
+            var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+            if (currentPosition > 0) {
+                window.requestAnimationFrame(scrollToTop);
+            }
+        });
+        function scrollToTop() {
+            var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+            if (currentPosition > 0) {
+                window.scrollTo(0, currentPosition - currentPosition / 3);
+                window.requestAnimationFrame(scrollToTop);
+            }
+        }
+    </script>
+    <!--Fim Scripts-->
+</body>
+
+</html>
